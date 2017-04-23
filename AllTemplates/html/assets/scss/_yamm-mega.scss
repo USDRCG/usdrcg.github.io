@@ -1,0 +1,40 @@
+//-----------------------------
+//  Yamm Styles
+//-----------------------------
+
+.yamm {
+
+  // reset positions
+  .dropdown.dropdown-fw {
+    position: static;
+  }
+
+  // propagate menu position under container for fw navbars
+  .container {
+    position: relative;
+  }
+
+  // by default aligns menu to left
+  .dropdown-menu {
+    left: auto;
+  }
+
+  // Content with padding
+  .yamm-content {
+    padding: 20px 30px;
+  }
+
+  // Fullwidth menu
+  .dropdown.dropdown-fw .dropdown-menu {
+    left: 0; right: 0;
+  }
+  .mega-vertical-nav{
+      li{
+          display: block;
+      }
+  }
+  .heading{
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+}

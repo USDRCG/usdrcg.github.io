@@ -1,0 +1,43 @@
+/*
+Intro landing page docs file
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800);
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 26px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0px;
+    font-weight: 300;
+}
+strong{
+    font-weight:700;
+}
+h1.text-center{
+    color: #777;
+}
+h1.text-center strong{
+    color:#000;
+}
+.eland-header{
+    padding-top: 60px;
+}
+hr{
+    margin: 60px 0;
+}
+.cp {
+    color: #099;
+}
+.s {
+    color: #d44950;
+}
+.na {
+    color: #4f9fcf;
+}
+.c {
+    color: #999;
+}

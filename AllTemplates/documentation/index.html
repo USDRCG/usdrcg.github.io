@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bizwrap3 docs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../html/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="eland-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 offset-lg-2">
+                        <h1 class="text-center">Welcome to bizwrap3 Minimal Multipurpose Template built using <strong>Gulp, Sass & bootstrap4</strong></h1>
+                        <p class=" text-center">
+                            Bizwrap is a professional Minimal multipurpose template for any business or portfolio website, it’s fully responsive design ready to look stunning on any device. </p><br>
+
+                    </div>
+                </div> <hr>
+                <p>Version - V3.0</p>
+                <p>Url - <a href="http://bootstraplovers.com/bootstrap4/bizwrap3.0/html">http://bootstraplovers.com/bootstrap4/bizwrap3.0/html</a></p>
+                <p>Support  - mylifedesign143@gmail.com</p>
+                <p>Last Update - N/A</p>
+                <hr>
+                <h1>1. Basic of bizwrap3 Template</h1>
+                <br>
+                <h4>Template structure</h4>
+                <pre><code class="language-bash" data-lang="bash">intro-bootstrap4/html
+├── css/
+│   ├── style.css (compiled from style.scss)
+│   ├── Plugins
+│        └── plugins.css (all plugins css compile into one css file)
+├── js/
+│   ├── app.js (customize js file of eland)
+│   ├── Plugins
+│        └── plugins.js (all plugins js files compile into one js file)
+└── scss/
+    ├── _variables.scss
+    ├── _base.scss
+    ├── _buttons.scss
+    ├── _navbar.scss
+    ├── _......./.scss
+    └── style.scss (main scss file)
+└── img (all images)/
+└── ionicons (icon fonts)/
+    ├── fonts
+    ├── style.css
+└── node_modules (npm install packages)/
+└── gulpfile.js (gulp workflow manager)/
+└── package.json (npm dependencies)/
+</code></pre>
+                <br>
+                <h4>Html Structure</h4>
+                <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;head&gt;</span>
+    <span class="c">&lt;!-- Required meta tags --&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1, shrink-to-fit=no"</span><span class="nt">&gt;</span>
+
+    <span class="c">&lt;!-- Bootstrap CSS --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"</span> <span class="na">integrity=</span><span class="s">"sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/head&gt;</span>
+  <span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Hello, world!<span class="nt">&lt;/h1&gt;</span>
+
+    <span class="c">&lt;!-- jQuery first, then Tether, then Bootstrap JS. --&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://code.jquery.com/jquery-3.1.1.slim.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"</span> <span class="na">integrity=</span><span class="s">"sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"</span> <span class="na">crossorigin=</span><span class="s">"anonymous"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+                <hr>
+                <h1>2.Css Use</h1>
+                <br>
+                <h4>Using gulp sass</h4>
+                <ol>
+                    <li>
+                        If you are familier with gulp and sass, there are good news because Bizwrap is built using gulp and sass 
+                    </li>
+                    <li>
+                        Before using gulp and sass make sure you have installed some dependencies into your system like <a href="https://nodejs.org/en/" target="_blank">NodeJs</a>, <a href="http://gulpjs.com/" target="_blank">gulp</a> and <a href="https://www.npmjs.com/package/gulp-sass" target="_blank">gulp sass</a>
+                    </li>
+                    <li>Open cammand line and write <code>gulp watch</code>. This cammand line will auto compile sass files into css file
+                    </li>
+                </ol>
+                <br>
+                <h4>Not familier  with sass</h4>
+                <p>
+                    <strong>No Problem</strong> - You can directly use the <code>bizwrap3.0/html/assets/css/style.css</code> for edit the template style.
+                </p>
+                <hr>
+                <h1>3. juqery</h1>
+                <p>Juqery plugins are install by <a target="_blank" href="https://bower.io/">Bower</a></p>
+                <p>
+                    For install a plugin open command line and type  like this <code>bower install plugin-name</code>
+                </p>
+                <p>
+                    bizwrap3 landing page are depend on <code>Jquery & bootstrap js</code>, Make sure you have included the jquery and bootstrap js files before adding any othr files path
+                </p>
+                <p>
+                    For Add, Edit or delete the bizwrap jquery functions, open <code>bizwrap3.0/assets//html/js/app.js</code> and edit it.
+                </p>
+                <hr>
+                <h1>4. Contact Form</h1>
+                <p>
+                    We have included a contact form into this template, for make it working open <code>bizwrap3.0/html/assets/mail/contact_me.php</code> file and edit your email id here - <code>$to = 'me@myprogrammingblog.com'; // put your email;</code>
+                </p>
+                <p>
+                    Make sure your project is running on online server to make contact form working.
+                </p>
+                <hr>
+                <h1>5.Icon fonts</h1>
+                <p>We have using the elegant icons font set into this template.</p>
+                <code><span><</span>i class="icon_adjust-horiz"><span><</span>/i<span>></span></code>
+                <p>Get full list of icons from here - <a href="https://www.elegantthemes.com/blog/resources/elegant-icon-font" target="_blank">Elegant icons</a></p>
+                <hr>
+                <h1>6.Credits</h1>
+                <p>Without these plugins, we can't imagine to create this project, Thank you all.</p>
+                <ol>
+                    <li><a href="https://bower.io/" target="_blank">Bower</a></li>
+                    <li><a href="https://jquery.com/" target="_blank">Jquery</a></li>
+                    <li><a href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap</a></li>
+                    <li><a href="http://mynameismatthieu.com/WOW/docs.html" target="_blank">Scroll animations</a></li>
+                    <li><a href="https://www.elegantthemes.com/blog/resources/elegant-icon-font" target="_blank">Elegant icons</a></li>
+                    <li><a href="https://unsplash.com/" target="_blank">Images</a></li>
+                    <li><a href="http://www.pixeden.com/psd-mock-up-templates/" target="_blank">Imac psd mockup</a></li>
+                    <li><a href="http://gulpjs.com/" target="_blank">Gulp</a></li>
+                </ol>
+                <hr>
+                <h1>7.Support</h1>
+                <p>
+                    If you have any questions related eland html template, Feel free to leave a massage to us 
+                </p>
+                <ul>
+                    <li>Support email:
+                        <ul>
+                            <li>mylifedesign143@gmail.com</li>
+                        </ul>
+                    </li>
+                    <li>Support Url:
+                        <ul>
+                            <li><a href="https://wrapbootstrap.com/user/design_mylife">https://wrapbootstrap.com/user/design_mylife</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <hr>
+                <h1>8.Changelog</h1>
+                <hr>
+                <h4>Version 3.0.1 <small>April 14-04-2017</small></h4>
+                <ul>
+                    <li>Added onepage transparent header Demo</li>
+                </ul>
+                <hr>
+                <h4>Version 3.0 <small>April 12-04-2017</small></h4>
+                <ul>
+                    <li>Upgrade to bootstrap4.0.0 alpha6</li>
+                    <li>Added Magnific lightbox</li>
+                    <li>Added basic documentation</li>
+                    <li>Added gulp workflow support</li>
+                    <li>Affected files - all .html files, style.css</li>
+                </ul>
+                <hr>
+                <span>&copy; Copyright 2017. Design_mylife</span>
+                <div style="height: 20px;"></div>
+            </div>
+        </div>
+    </body>
+</html>
