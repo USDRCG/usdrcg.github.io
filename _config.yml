@@ -1,0 +1,3 @@
+baseurl: /site
+exclude: ['README.md']
+

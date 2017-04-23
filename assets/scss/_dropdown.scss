@@ -1,0 +1,220 @@
+/*============================*/
+/*======dropdowm menu=========*/
+/*============================*/
+.navbar .dropdown-menu {
+  padding: 0;
+  margin: 0;
+  min-width: 190px;
+  background-color: #fff;
+  .dropdown-item{
+    color:#888;
+    font-family: $primary-font;
+    padding: 9px 20px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: capitalize;
+    @include transition (all 0.3s ease-in);
+    &:hover{
+      background: $skincolor;
+      color:#fff;
+    }
+  }
+}
+
+/*top bar*/
+.top-bar{
+  background-color: #f5f5f5;
+  position:relative;
+  .info {
+    margin: 0px;
+    li {
+      font-size: 14px;
+      color:#555;
+      font-weight: 500;
+      font-size: 13px;
+      a{
+        color:#555;
+        padding:4px 10px;
+        text-decoration: none;
+        display: block;
+        &:hover{
+            color:$skincolor;
+        }
+      }
+    }
+  }
+
+  .cart-dropdown{
+        right: 0;
+    left: auto;
+    min-width:290px;
+    padding:0px;
+    @include border-radius(0px);
+    @include box-shadow (none);
+    li{
+        display: block;
+        padding: 10px 15px;
+        border-bottom: 1px solid #eee;
+        height:auto;
+        &:first-child{
+            border-bottom:0px;
+        }
+        &:last-child{
+            padding-bottom: 0px;
+            border-bottom: 0px;
+        }
+       img{
+            margin-right: 10px;
+            display: block;
+            float: left;
+            width: 60px;            
+        }
+                a{
+            padding: 0px;
+            font-weight: 400 !important;
+        }
+        .cart-desc{
+            overflow: hidden;
+            h5{
+                font-size: 16px;
+        margin-bottom: 3px;
+        line-height: 16px;
+            }
+        }
+        &.cart-footer{
+            padding: 10px 15px;
+            text-align:center;
+            a{
+                width:100%;
+                height:35px;
+                line-height: 35px;
+                padding: 0px 10px;
+                color:#fff !important;
+                display:block;
+                &.btn-first{
+                    background-color: #444;
+                    &:hover{
+                        background-color: $skincolor;
+                    }
+                }
+                 &.btn-last{
+                     background-color: $skincolor;
+                    &:hover{                      
+                        background-color: #444;
+                    }
+                }
+                &:hover{
+                    color:#fff !important;
+                }
+            }
+        }
+    }
+}
+}
+.right-search{
+    padding-right:15px;
+    i{
+        font-size: 15px;
+    }
+    .icon-search{
+        cursor: pointer;
+    }
+}
+.search-form-nav{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 9999;
+    .form-control{
+        height: 34px;
+        @include box-shadow(none);
+      border: 0px;
+      font-size: 14px;
+      background-color: rgba(255,255,255,0.8);
+      &:focus{
+          border: 0px;
+      }
+    }
+    .search-close{
+        position: absolute;
+       padding: 5px;
+       right: 26px;
+       top: 0px;
+       font-size: 24px;
+       cursor: pointer;
+    }
+}
+.cart-li{
+    a{
+        font-weight: 700;
+        color:$skincolor !important;
+        &:focus,&:hover{
+            text-decoration: none;
+        }
+    }
+}
+ body .top-bar .info  .cart-dropdown li{
+      line-height: initial !important;
+  }
+/******************
+
+MULTI LEVEL DROPDOWN CSS
+
+*********************/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%!important;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.dropdown-submenu>.dropdown-menu>li>a{
+
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu > a:after {
+    top: 11px;
+    right: 9px;
+    font-size: 11px;
+    content: "\f3d3" !important;
+    font-family: "Ionicons" !important;
+    position: absolute;
+    font-weight: normal;
+    display: inline-block;
+    font-family: FontAwesome;
+}
+
+.dropdown-submenu.float-left {
+    float: none;
+}
+
+.dropdown-submenu.float-left>.dropdown-menu {
+    left: -100%important;
+    margin-left: 10px;
+    @include border-radius(0px);
+}
+.lang-dropdown{
+    width:100px;
+    min-width: 100px;
+    right:0;
+    left: auto;
+    padding: 0px;
+    @include border-radius(0px);
+    @include box-shadow(none);
+    >li>a{
+        margin-right: 0px !important;
+    }
+}
+
+

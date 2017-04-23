@@ -1,0 +1,44 @@
+/*==========================portfolio ==========================*/
+.portfolio-sec{
+  border: $default-border;
+  color: #000;
+  background-color: #fff;
+  position: relative;
+  margin-bottom:20px;
+}
+.portfolio-thumnail img{
+  width:100%;
+  height: auto;
+}
+.portfolio-desc{
+  padding: 10px 0;
+}
+h4.portfolio-post-title{
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.portfolio-post-cat{
+  display: block;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #999;
+}
+.portfolio-desc .theme-btn-default{
+  margin-bottom: -50px;
+}
+.flexslider{
+  @include box-shadow (none);
+}
+.portfolio-single-desc h3{
+  color:#000;
+  font-size: 23px;
+  font-weight: 800;
+}
+.cbp-l-grid-mosaic-flat .cbp-caption-activeWrap{
+    background-color:rgba($skincolor,0.7);
+}
+
