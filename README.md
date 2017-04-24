@@ -1,7 +1,7 @@
 # Welcome to the refreshed USDRCG website!
 
 
-###New features:
+### New features:
 
  * Responsive and mobile-friendly
  * Better organization
