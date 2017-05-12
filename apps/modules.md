@@ -1,6 +1,4 @@
---- 
-layout: ../default
---- 
+{% include wikinav.html %}
 
 
 [Back to the USDRCG site](http://usdrcg.github.io/index.html)
