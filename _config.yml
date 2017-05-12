@@ -1,3 +1,2 @@
 baseurl: 
 exclude: ['README.md']
-include: ['wikinav.html']
