@@ -34,10 +34,6 @@ layout: default
             <div class="card-accordion card-accordion-simple card-accordion-icons-left mb80" id="card-accordion-simple" role="tablist" aria-multiselectable="true">
               <!-- Card 1 -->
               <div class="card">
-                
-                      
-                      
-                      
                 <div class="card-header accordion-header" role="tab" id="headingOne2"> <a data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseOneList" aria-expanded="true" aria-controls="collapseOne">I cannot log into the HPC and it is telling me that I am locked out. What do I do? </a> </div>
                 <div id="collapseOneList" class="collapse show" role="tabpanel" aria-labelledby="headingOne1">
                   <div class="card-block">
@@ -57,6 +53,7 @@ layout: default
                   </div>
                 </div>
               </div>
+              
               <!-- Card 3 -->
               <div class="card">
                 <div class="card-header accordion-header" role="tab" id="headingThree2"> <a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThree">Do I really have to type my username each time I connect?  </a> </div>
@@ -73,6 +70,20 @@ layout: default
                   </div>
                 </div>
               </div>
+                
+                <!-- Card  -->
+              <div class="card">
+                <div class="card-header accordion-header" role="tab" id="headingThree2"> <a class="collapsed" data-toggle="collapse" data-parent="#card-accordion-simple" href="#collapseThreeList" aria-expanded="false" aria-controls="collapseThree">How do I fix a libgfortran.so.1 error?  </a> </div>
+                <div id="collapseThreeList" class="collapse" role="tabpanel" aria-labelledby="headingThree3">
+                  <div class="card-block">
+                        
+                        <p>New Fortran libraries were loaded and your Fortran scripts may need to be rebuilt.</p>
+                        <p>Do so by typing the following command for each script:</p>
+                        <p>gfortran -o script_name script_name.f</p>
+                  </div>
+                </div>
+              </div>
+                
             </div>
 
                     <!--accordions end-->
