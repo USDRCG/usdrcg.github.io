@@ -34,5 +34,5 @@
  
  
 
-<hr>
+
 [Source of template](https://wrapbootstrap.com/theme/bizwrap-elegant-bootstrap-4-template-WB07PT66X)
