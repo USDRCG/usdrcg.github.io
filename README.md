@@ -3,7 +3,29 @@
 ### About This ReadMe
 * This ReadMe contains basic information on the organization and function of this website. 
 * It is assumed that editors have an understanding of html and css, as well as the [bootstrap](https://www.w3schools.com/bootstrap/) framework for mobile-friendly design.
-* Github Pages uses Jekyll in place of PHP and other server-side languages. Click [here](https://jekyllrb.com/docs/github-pages/) for Jekyll documentation.
+* Github Pages uses Jekyll in place of PHP and other server-side languages. Click [here](https://jekyllrb.com/docs/github-pages/) for Jekyll documentation. 
+> Even though I have provided the link for the Jekyll documentation, I recommend that you use it for quick reference instead of a step-by-step guide. 
+> I would not recommend installing it to your computer.
+> If you peruse the online Jekyll documentation and YouTube tutorials, you'll easily get caught up in a messy web of Ruby gems, operating systems incompatabilities, and general nightmares. 
+
+### About Jekyll, as used here
+* If you edit the code from within GitHub's browser editor tool, there is no need to install anything to use Jekyll.
+* The basics of Jekyll use are:
+    * You must create a `_config.yml` file that contains the following:
+    ```
+    basurl:
+    exclude: ['README.md']
+    ``` 
+    * The html document that contains the header, footer, and nav information must be placed in the `_layouts` folder.
+    * In the html document that contains the header, footer, and nav information, a line of code that says `{{content}}` should appear in the middle of the document, between header and footer sections. GitHub will insert the page content there.
+    * In a page html document, you must include the following header information to allow GitHub to find the header, footer, and nav information:
+    ```
+    ---
+    Layout: default
+    ---
+    ```
+    * Local directory links to content (pages, images, css, etc.) can be done as usual, such as `/images/example_image.png`. However, Jekyll has a nifty feature that allows you to use a "project page url structure." This looks like `{{site.baseurl}}/images/example_image.png`. Either will build properly, but the latter allows you to later move your site to subfolders, in case you want to host multiple sites under one domain. 
+    > Even though we have no plans to move our site around, this code formatting exists, therefore it is included in this ReadMe.
 
 ### Templates
 
