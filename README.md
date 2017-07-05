@@ -37,14 +37,14 @@
  
  ### Workshop Pages
  
- * There are three types of workshop pages:   
-        1. Generic Landing Page (`workshop.html`)   
-            * Where users will be directed to either sign-up or click on the date of their workshop.
-        2. Date-Specific Page (example: `w_2017.01.19.html`)  
-            *  The easiest way to create a new *date-specific page* is to copy the contents of another and paste into a new html document.
-            * An Etherpad frame exists on each date-specific workshop page. Simply update the _embedded url_ in the `<iframe>` tag. [Etherpad.net](http://etherpad.net) is the easiest way to generate a new Etherpad.
-        3. Sign-Up Page (`sign-up.html`)   
-            * This is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
+ There are three types of workshop pages:   
+    1. Generic Landing Page (`workshop.html`)   
+        * Where users will be directed to either sign-up or click on the date of their workshop.
+    2. Date-Specific Page (example: `w_2017.01.19.html`)  
+        *  The easiest way to create a new *date-specific page* is to copy the contents of another and paste into a new html document.
+        * An Etherpad frame exists on each date-specific workshop page. Simply update the _embedded url_ in the `<iframe>` tag. [Etherpad.net](http://etherpad.net) is the easiest way to generate a new Etherpad.
+    3. Sign-Up Page (`sign-up.html`)   
+        * This is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
  
  
  
