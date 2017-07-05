@@ -1,6 +1,9 @@
 # Welcome to the USDRCG website!
 
-## About This Site
+### About This ReadMe
+* This ReadMe contains basic information on the organization and function of this website. 
+* It is assumed that editors have an understanding of html and css, as well as the [bootstrap](https://www.w3schools.com/bootstrap/) framework for mobile-friendly design.
+* Github Pages uses Jekyll in place of PHP and other server-side languages. Click [here](https://jekyllrb.com/docs/github-pages/) for Jekyll documentation.
 
 ### Templates
 
@@ -9,7 +12,7 @@
 * Navigating to them in a browser allows you to see a live preview. Example: [http://usdrcg.github.io/AllTemplates/html/contact.html](http://usdrcg.github.io/AllTemplates/html/contact.html)
 
 ### Layouts (headers, footers, navs)
-* Jekyll is used as a faux-server-side language that allows us to have headers, footers, and navigation sections seperate from each page.
+* Jekyll is used as a _faux_-server-side language that allows us to have headers, footers, and navigation sections seperate from each page.
 * A configuration (`_config.yml`) file is needed that contains the following:
 
     ```
