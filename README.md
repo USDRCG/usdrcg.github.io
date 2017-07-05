@@ -41,10 +41,11 @@
         1. Generic Landing Page (`workshop.html`)   
         2. Date-Specific Page (example: `w_2017.01.19.html`)   
         3. Sign-Up Page (`sign-up.html`)   
- * The generic workshop landing page where users will be directed to either sign-up or click on the date of their workshop.
- * The easiest way to create a new date-specific workshop page is to copy the contents of another and paste into a new html document.
- * `sign-up.html` is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
- * An Etherpad frame exists on each specific workshop date page. Simply update the _embedded url_ in the `<iframe>` tag. [Etherpad.net](http://etherpad.net) is the easiest way to generate a new Etherpad.
+ * The *generic landing page* is where users will be directed to either sign-up or click on the date of their workshop.
+ * The easiest way to create a new *date-specific page* is to copy the contents of another and paste into a new html document.
+    * An Etherpad frame exists on each date-specific workshop page. Simply update the _embedded url_ in the `<iframe>` tag. [Etherpad.net](http://etherpad.net) is the easiest way to generate a new Etherpad.
+ * A *sign-up page* is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
+ 
  
  
 <hr>
