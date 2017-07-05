@@ -37,10 +37,10 @@
  
  ### Workshop Pages
  
- * There are three types of workshop pages:
-        1. Generic Landing Page (`workshop.html`)
-        2. Date-Specific Page (example: `w_2017.01.19.html`)
-        3. Sign-Up Page (`sign-up.html`)
+ * There are three types of workshop pages:   
+        1. Generic Landing Page (`workshop.html`)   
+        2. Date-Specific Page (example: `w_2017.01.19.html`)   
+        3. Sign-Up Page (`sign-up.html`)   
  * The generic workshop landing page where users will be directed to either sign-up or click on the date of their workshop.
  * The easiest way to create a new date-specific workshop page is to copy the contents of another and paste into a new html document.
  * `sign-up.html` is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
