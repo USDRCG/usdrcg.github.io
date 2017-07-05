@@ -17,7 +17,9 @@
     exclude: ['README.md']
     ```
 
- *Note: the `baseurl` in our case is empty because we are working directly out of usdrcg.github.io. If we had a subfolder that contained another site, then we would list that subfolder there. This term allows us to create simple links to local documents.
+ > Note: the `baseurl` in our case is empty because we are working directly out of usdrcg.github.io. 
+ > If we had a subfolder that contained another site, then we would list that subfolder there. 
+ > This term allows us to create simple links to local documents.
  
  * At the top of each page, you must specify that you'd also like Jekyll to load your header, footer, and nav sections. This is done by including the following at the top of the page:
 
@@ -32,4 +34,4 @@
  
 
 <hr>
-Source of template: [here](https://wrapbootstrap.com/theme/bizwrap-elegant-bootstrap-4-template-WB07PT66X).
+Source of template [here](https://wrapbootstrap.com/theme/bizwrap-elegant-bootstrap-4-template-WB07PT66X)
