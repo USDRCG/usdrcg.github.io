@@ -19,9 +19,9 @@
  
  * At the top of each page, you must specify that you'd also like Jekyll to load your header, footer, and nav sections. This is done by including the following at the top of the page:
 
-    ---
+    `---`
     layout: default
-    ---
+    `---`
 
 * The header, footer, and nav page must be located in the `_layouts` folder. This is where Jekyll knows how to find it.
 * In the file `/_layouts/default.html`, you'll find the header and navigation code at the top, followed by `{{content}}` on the middle, then footer code at the bottom. The `{{content}}` code tells Jekyll where to include the page code.
