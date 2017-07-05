@@ -32,7 +32,14 @@
 * The header, footer, and nav page must be located in the `_layouts` folder. This is where Jekyll knows how to find it.
 * In the file `/_layouts/default.html`, you'll find the header and navigation code at the top, followed by `{{content}}` on the middle, then footer code at the bottom. The `{{content}}` code tells Jekyll where to include the page code.
  
+ ### Workshop Pages
  
-
+ * There is a generic workshop landing page where users will be directed to either sign-up or click on the date of their workshop.
+ * `sign-up.html` Is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
+ * The easiest way to create a new workshop page is to copy the contents of another and paste into a new html document.
+ * An Etherpad frame exists on each specific workshop date page. Simply update the _embedded url_ in the `<iframe>` tag. [Etherpad.net] is the easiest way to generate a new Etherpad. Then 
+ 
+ 
+<hr>
 
 [Source of template](https://wrapbootstrap.com/theme/bizwrap-elegant-bootstrap-4-template-WB07PT66X)
