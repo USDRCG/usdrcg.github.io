@@ -34,6 +34,10 @@
  
  ### Workshop Pages
  
+ * There are three types of workshop pages:
+        1. Generic Landing Page
+        2. Date-Specific Page
+        3. Sign-Up Page
  * There is a generic workshop landing page where users will be directed to either sign-up or click on the date of their workshop.
  * `sign-up.html` Is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.
  * The easiest way to create a new workshop page is to copy the contents of another and paste into a new html document.
