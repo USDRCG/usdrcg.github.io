@@ -1,5 +1,11 @@
 # Welcome to the USDRCG website!
 
+Definitions used throughout:
+* Nav = navigation bar/manu
+* Page = any html content page such as `index.html` or `resources.html`
+* Site = usdrcg.github.io
+
+
 ### About This ReadMe
 * This ReadMe contains basic information on the organization and function of this website. 
 * It is assumed that editors have an understanding of html and css, as well as the [bootstrap](https://www.w3schools.com/bootstrap/) framework for mobile-friendly design.
@@ -23,12 +29,13 @@ The basics of Jekyll use are:
     ---
     ```
 * Local directory links to content (pages, images, css, etc.) can be done as usual, such as `/images/example_image.png`. However, Jekyll has a nifty feature that allows you to use a "project page url structure." This looks like `{{site.baseurl}}/images/example_image.png`. Either will build properly, but the latter allows you to later move your site to subfolders, in case you want to host multiple sites under one domain. 
-> Even though we have no plans to move our site around, this code exists throughout the site, therefore it is included in this ReadMe.
+> Even though we have no plans to move our site around, this code exists throughout the site, therefore it is included in this ReadMe. 
+> If we did move the site to a subfolder of our repository, we would simply need to modify the `_config.yml` file to include the folder name for the `baseurl`. Shazam! All of our internal links would still work!
 
 ### Templates
 
 * There are many page templates available for use, should you need to add a new page. 
-* Find them in the ALLTemplates folder. 
+* Find them in the *ALLTemplates* folder. 
 * Navigating to them in a browser allows you to see a live preview. Example: [http://usdrcg.github.io/AllTemplates/html/contact.html](http://usdrcg.github.io/AllTemplates/html/contact.html)
 
 ### Layouts (headers, footers, navs)
@@ -53,7 +60,7 @@ The basics of Jekyll use are:
     ```
 
 * The header, footer, and nav page must be located in the `_layouts` folder. This is where Jekyll knows how to find it.
-* In the file `/_layouts/default.html`, you'll find the header and navigation code at the top, followed by `{{content}}` on the middle, then footer code at the bottom. The `{{content}}` code tells Jekyll where to include the page code.
+* In the file `/_layouts/default.html`, you'll find the header and navigation code at the top, followed by `{{content}}` in the middle, then footer code at the bottom. The `{{content}}` code tells Jekyll where to include the page code.
  
  ### Workshop Pages
  
@@ -64,7 +71,7 @@ The basics of Jekyll use are:
      * The easiest way to create a new *date-specific page* is to copy the contents of another and paste into a new html document.   
      * An Etherpad frame exists on each date-specific workshop page. Simply update the _embedded url_ in the `<iframe>` tag. [Etherpad.net](http://etherpad.net) is the easiest way to generate a new Etherpad.   
  3. Sign-Up Page (`sign-up.html`)   
-     * This is used to embedd a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.   
+     * This is used to embed a Google Form for users to fill out. The html for that is commented out. All you need to do is un-comment the code and change the _embedded url_ within the `<iframe>` tag.   
  
  
  
