@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<head>
+    <title>R | USDRCG</title>
+</head>
+
+ <body>
+        <section id="content-region-3" class="padding-40 page-tree-bg">
+            <div class="container">
+                <h3 class="page-tree-text">
+                    R
+                </h3>
+            </div>
+        </section><!--page-tree end here-->
+        <div class="space-70"></div>
+
+      
+        <div class="container">
+         
+         <div class="row">
+                <div class="col-md-8">
+                    <h4 class="heading-mini">
+                        R is a statisitcal computing language that has broad applicbility in scientific applications. Many of the scientific applications of R can be utilized through one of the various R packages that are available from CRAN. R is availabel on both Legacy and HPC with any version being able to be used 
+                    </h4>
+                    <p> Our three-hour workshop is designed to show you how to effectively use USD’s supercomputers. Topics include:</p>
+                   
+                    
+                </div>
+            
+                
+
+        <div class="space-70"></div>
+   
+    
+</body>
