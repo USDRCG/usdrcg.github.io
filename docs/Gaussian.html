@@ -33,40 +33,35 @@ includes: wiki-nav
                     <h3>Gaussian</h3>
                     <hr>
                     
-                    
-                  <xmp theme="united" style="display:none;">  
-                    
 
 
 
-## At-a-Glance
+<h2>At-a-Glance </h2>
 
-| Item | Information |
-| --- | --- |
-| Description | Computational chemistry software with graphical user interface (GaussView). | 
+<b>Description:</b> Computational chemistry software with graphical user interface (GaussView). | 
 | Command: GaussView | `gv file_name_optional` (requires [X11 forwarding](https://github.com/USDRCG/usdrcg.github.io/wiki/X11-Forwarding)) |
 | Command: Gaussian | `rungaussian file_name` |
 
 <hr>
 
-## User Guide
+<h2>User Guide</h2>
 
 
 Gaussian 09 is available on the HPC cluster. To run Gaussian, your account must be a member of the Gaussian group.
 
 When you log in, type the following:
 
-    module load gaussian-09
+                    <code>module load gaussian-09</code>
 
 The above line may be included in (for example) your > .bashrc file if you do not wish to type it each time you log in.
 
-After this the g09 command should be present in your PATH environment variable, the g09root environment variable should be set, and `$g09root/g09/bsd/g09.profile` should automatically be sourced. The `g09.sh` script also sets GAUSS_SCRDIR to '/scratch/yourusername', creating it if necessary.
+After this the g09 command should be present in your PATH environment variable, the g09root environment variable should be set, and <code>$g09root/g09/bsd/g09.profile</code> should automatically be sourced. The <code>g09.sh</code> script also sets GAUSS_SCRDIR to <code>/scratch/yourusername</code>, creating it if necessary.
 
-To run Gaussian directly, for example from a `qlogin` session, type `g09 < input-file-name`. However, it is recommended that you launch your Gaussian jobs via the job scheduler, either with the `rungaussian` command or by writing your own job submission script.
+To run Gaussian directly, for example from a <code>qlogin</code> session, type <code>g09 < input-file-name</code>. However, it is recommended that you launch your Gaussian jobs via the job scheduler, either with the <code>rungaussian</code> command or by writing your own job submission script.
 
-### The `rungaussian` command
+### The <code>rungaussian</code> command
 
-The simplest way to run a Gaussian job is to use the `rungaussian` command. To run Gaussian on the file myinput.com, type the following from the directory containing 'myinput.com':
+The simplest way to run a Gaussian job is to use the <code>rungaussian</code> command. To run Gaussian on the file myinput.com, type the following from the directory containing <code>myinput.com</code>:
 
     rungaussian myinput.com
 
@@ -165,15 +160,7 @@ The GaussView Preferences screen should now look like this:
 >* The GaussView job manager (under Calculate->Current Jobs) will not report on any launched jobs. Your Gaussian job will be managed by the job scheduler in the same manner as your regular Gaussian jobs. You can see your Gaussian job’s job ID and monitor its execution with `qstat` and cancel it with `qdel`.
 
 
-
-
-
-                      </xmp>                      
-                    
-                    
-                    
-                    
-                    
+        
                     
                     
                       
@@ -182,4 +169,3 @@ The GaussView Preferences screen should now look like this:
         </div>
         
 
-    <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
