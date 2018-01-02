@@ -38,22 +38,20 @@ includes: wiki-nav
 
 <h3>At-A-Glance </h3>
 
-<b>Description:</b> Computational chemistry software with graphical user interface (GaussView).
-<p>Command for GaussView: <code>gv file_name_optional</code> (requires <a href="{{site.baseurl}}/docs/X11-Forwarding">X11 Forwarding</a></p>
-                    <p>Command for Gaussian: <code>rungaussian file_name</code></p>
+<p><b>Description:</b> Computational chemistry software with graphical user interface (GaussView).</p>
+<p><b>Command for GaussView:</b> <code>gv file_name_optional</code> (requires <a href="{{site.baseurl}}/docs/X11-Forwarding">X11 Forwarding</a>)</p>
+<p><b>Command for Gaussian:</b> <code>rungaussian file_name</code></p>
 
 <hr>
 
 <h3>User Guide</h3>
 
-
 <p>Gaussian 09 is available on the HPC cluster. To run Gaussian, your account must be a member of the Gaussian group.</p>
 
 <p>When you log in, type the following:</p>
+         <code>module load gaussian-09</code>
 
-                    <code>module load gaussian-09</code>
-
-<p>The above line may be included in (for example) your > .bashrc file if you do not wish to type it each time you log in.</p>
+<p>The above line may be included in (for example) your <code>.bashrc</code> file if you do not wish to type it each time you log in.</p>
 
 <p>After this the g09 command should be present in your PATH environment variable, the g09root environment variable should be set, and <code>$g09root/g09/bsd/g09.profile</code> should automatically be sourced. The <code>g09.sh</code> script also sets GAUSS_SCRDIR to <code>/scratch/yourusername</code>, creating it if necessary.</p>
 
