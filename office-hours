@@ -1,0 +1,61 @@
+--- 
+layout: default
+---
+
+<head>
+    <title>Office Hours | USDRCG</title>
+</head>
+
+        <section id="content-region-3" class="padding-40 page-tree-bg">
+            <div class="container">
+                <h3 class="page-tree-text">
+                    Office Hours
+                </h3>
+            </div>
+        </section><!--page-tree end here-->
+        <div class="space-70"></div>
+
+   
+    <div class="container"> 
+        <div class="row">
+                <div class="col-md-12">
+                    <h4 class="heading-mini">Mission</h4>
+                    <p>
+                    The University of South Dakota Research Computing Group is a multifaceted and dynamic organization.
+                    As a research computing group, our primary focus is to accelerate discovery by making science, engineering, and medicine more productive.
+                    We aim to do this through direct support of research projects, acquistition of funding and other resources to improve user experiences, and to provide educational opportunities for both current and potential users.          
+                    </p>
+                </div>
+        </div>  
+    </div>
+<div class="space-20"></div>
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="heading-mini">Who We Are</h4>
+                    <p>
+                        The University of South Dakota Research Computing Group provides research computing services to the University of South Dakota academic community, as well as collaborators both nationally and internationally. 
+                        We aim to provide the tools and resources that these users need to answer important research questions covering a vast array of subjects.                     
+                    </p>
+                </div>
+            </div>  
+       </div>
+<div class="space-20"></div>
+
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="heading-mini">What We Do</h4>
+                    <p>
+                        Our services include a comprehensive mixture of technical support for cyberinfrastructure and cluster computing resources, education, and research support for the academic user community.
+                    </p>
+                </div>
+            </div>      
+      
+</div>     
+                
+                
+        <!-- jQuery plugins. -->
+        <script src="assets/js/plugins/plugins.js"></script>
+        <script src="assets/js/app.js"></script>
+    
